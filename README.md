@@ -48,7 +48,7 @@ The xml entry for this type
 		<uncommon>80</uncommon>
 		<rare>53</rare>
 		<mythic>15</mythic>
-		<lands>20	</lands>
+		<lands>20</lands>
 	</cards>
 </edition>
 ```
