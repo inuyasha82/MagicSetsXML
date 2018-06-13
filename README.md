@@ -2,7 +2,7 @@
 
 Introduction
 ============
-This XML file contains all sets (or nearly) from alpha to the latest sets released. 
+This XML file contains all sets (or nearly) from alpha to the latest sets released. Its purpose is to be focused only on sets, and nothing else there are no detailed information about single cards, mechanics, etc. only sets details.
 
 This file is manually updated, so there could be a delay on when a set is released and when is reported here. 
 Along with the set information the card_logos folder contains all the symbols.
