@@ -10,7 +10,7 @@ Along with the set information the card_logos folder contains all the symbols.
 Edition Item
 ============
 
-Even if depending on the set type (preconstructed, normal set, commander, etc) all edition have a common set of information listed below:  contains the following information:
+Even if depending on the set type some of the details are different (preconstructed, normal set, commander, etc) all edition have a common set of information listed below:  contains the following information:
 - Set exit date (month-year)
 - Set name (the name is reported in English, Italian and Spanish)
 - Image filename (available in the card 
@@ -22,6 +22,18 @@ If you need to consume the xml as an API you can use this url: https://inuyasha8
 (this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice
 
 This README is not completed yet.
+
+Set Name 
+--------
+The set name tag is wrapped inside the <names> tag, since it is reported in different languages: 
+```xml
+<names>
+	<name>English Name</name>
+	<name lang="it">Italian Name</name>
+	<name lang="es">Spanish Name</name>
+</names>
+```
+Currently only English, Spanish and Italian names are reported. No lang attribute means English language. 
 
 Normal Set
 ----------
