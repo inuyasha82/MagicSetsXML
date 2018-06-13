@@ -2,7 +2,9 @@
 
 Introduction
 ============
-This XML file contains all sets (or nearly) from alpha to the latest sets released. Its purpose is to be focused only on sets, and nothing else there are no detailed information about single cards, mechanics, etc. only sets details.
+This XML file contains all sets (or nearly) from alpha to the latest sets released. 
+
+Its main purpose is to be focused only on sets, and nothing else, then you can't find  information about single cards, mechanics, etc. only sets details. The only card detail available is the card composition.
 
 This file is manually updated, so there could be a delay on when a set is released and when is reported here. 
 Along with the set information the card_logos folder contains all the symbols.
@@ -19,7 +21,7 @@ Even if depending on the set type some of the details are different (preconstruc
 You can access the xml file here:
 
 If you need to consume the xml as an API you can use this url: https://inuyasha82.github.io/MagicSetsXML/magicsymbols.xml 
-(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice
+(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice and deploy it on your server (the project is based on the same xml).
 
 This README is not completed yet.
 
