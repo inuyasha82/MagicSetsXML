@@ -37,20 +37,20 @@ For the normal set the card composition is composed by:
 The xml entry for this type
 ```xml
 <edition>
-		<launch>2018-04</launch>
-		<code>DOM</code>
-		<image>DOM_Symbol.png</image>
-		<names>
-			<name>Dominaria</name>
-		</names>
-		<cards>
-			<common>101</common>
-			<uncommon>80</uncommon>
-			<rare>53</rare>
-			<mythic>15</mythic>
-			<lands>20	</lands>
-		</cards>
-	</edition>
+	<launch>2018-04</launch>
+	<code>DOM</code>
+	<image>DOM_Symbol.png</image>
+	<names>
+		<name>Dominaria</name>
+	</names>
+	<cards>
+		<common>101</common>
+		<uncommon>80</uncommon>
+		<rare>53</rare>
+		<mythic>15</mythic>
+		<lands>20	</lands>
+	</cards>
+</edition>
 ```
 
 Contributing
