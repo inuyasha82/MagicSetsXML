@@ -2532,7 +2532,7 @@
 			<uncommon>80</uncommon>
 			<rare>53</rare>
 			<mythic>15</mythic>
-			<lands>20	</lands>
+			<lands>20</lands>
 		</cards>
 	</edition>
 	<edition>
@@ -2542,6 +2542,13 @@
 		<names>
 			<name>BattleBond</name>
 		</names>
+		<cards>
+			<common>101</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>15</mythic>
+			<lands>5</lands>
+		</cards>
 	</edition>
 	<edition>
 		<launch>2018-07</launch>
