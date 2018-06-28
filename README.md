@@ -90,6 +90,32 @@ The xml entry for this type
 	</cards>
 </edition>
 ```
+Preconstructed Sets
+===================
+A preconstructed set has a little bit different structure, keeping all the common fields (names, code, image, launch, etc.) the card composition field is replaced by the <preconstructed> tag. Here an example of a preconstructed set: 
+	
+```xml
+<edition>
+	<launch>2011-04</launch>
+	<code> DDG </code>
+	<image>DDG_symbol.png</image>
+	<names>
+		<name>Duel Decks: Knights vs. Dragons</name>
+		<name lang="it">Duel Decks: Knights vs. Dragons</name>
+	        <name lang="es">Duel Decks: Knights vs. Dragons</name>
+	</names>
+	<preconstructed decks="2" type="duel">
+		<size>60</size>
+	</preconstructed>
+</edition>
+```
+
+The preconstructed tag is composed of two attributes and one child:
+
+* **decks** attribute is the number of decks that compose this set.
+* **type** it identify the type of preconstructed set, it can be one of: duel, commander, planechase, multiplayer. It can be left empty.
+* The child tag is used to identify the size of each deck in the set.
+
 Special tags
 =================
 In some cases special tags are used to identify some properties of some particular set. To help to identify what is the type of set.
