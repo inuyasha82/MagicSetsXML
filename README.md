@@ -116,6 +116,25 @@ The preconstructed tag is composed of two attributes and one child:
 * **type** it identify the type of preconstructed set, it can be one of: duel, commander, planechase, multiplayer. It can be left empty.
 * The child tag is used to identify the size of each deck in the set.
 
+A special case is the planechase set, that has also special cards, so in that case there is also the cards tag, that has one child <plane> to indicate how many planes card are in this set. Below is an example of a planechase deck: 
+	
+```xml
+<edition>
+	<launch>2009-09</launch>
+	<code> HOP </code>
+	<image>Planechase_expansion_symbol.png</image>
+	<names>
+		<name>Planechase (2009)</name>
+	</names>
+	<preconstructed decks="4" type="planechase">
+		<size>60</size>
+	</preconstructed>
+	<cards>
+		<plane>40</plane>
+	</cards>
+</edition>
+```
+
 Special tags
 =================
 In some cases special tags are used to identify some properties of some particular set. To help to identify what is the type of set.
