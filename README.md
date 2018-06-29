@@ -160,6 +160,12 @@ is used.
 <online />
 ```
 
+* Finally for sets that are designed specifically for 2hg format (the first set published in that way is battlebond), the following tag is used:
+
+```xml
+<twohg />
+```
+
 Contributing
 ============
 Everyone is free to contribute reporting new sets, proposing new information to be added, or reporting issues with sets. 
