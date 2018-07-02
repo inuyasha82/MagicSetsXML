@@ -15,7 +15,7 @@ Edition Item
 Even if depending on the set type some of the details are different (preconstructed, normal set, commander, etc) all edition have a common set of information listed below:  contains the following information:
 - Set exit date (month-year)
 - Set name (the name is reported in English, Italian and Spanish)
-- Image filename (available in the card 
+- Image filename (available in the card_logos folder of this repository)
 - 3 Letters set code
 
 You can access the xml file here:
