@@ -9,6 +9,10 @@ Its main purpose is to be focused only on sets, and nothing else, then you can't
 This file is manually updated, so there could be a delay on when a set is released and when is reported here. 
 Along with the set information the card_logos folder contains all the symbols.
 
+If you need to consume the xml as an API you can use this url: https://inuyasha82.github.io/MagicSetsXML/magicsymbols.xml 
+(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice and deploy it on your server (the project is based on the same xml).
+
+
 Edition Item
 ============
 
@@ -20,10 +24,6 @@ Even if depending on the set type some of the details are different (preconstruc
 
 You can access the xml file here:
 
-If you need to consume the xml as an API you can use this url: https://inuyasha82.github.io/MagicSetsXML/magicsymbols.xml 
-(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice and deploy it on your server (the project is based on the same xml).
-
-This README is not completed yet.
 
 Set Name 
 --------
