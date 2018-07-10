@@ -9,21 +9,21 @@ Its main purpose is to be focused only on sets, and nothing else, then you can't
 This file is manually updated, so there could be a delay on when a set is released and when is reported here. 
 Along with the set information the card_logos folder contains all the symbols.
 
+If you need to consume the xml as an API you can use this url: https://inuyasha82.github.io/MagicSetsXML/magicsymbols.xml 
+(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice and deploy it on your server (the project is based on the same xml).
+
+
 Edition Item
 ============
 
 Even if depending on the set type some of the details are different (preconstructed, normal set, commander, etc) all edition have a common set of information listed below:  contains the following information:
 - Set exit date (month-year)
 - Set name (the name is reported in English, Italian and Spanish)
-- Image filename (available in the card 
+- Image filename (available in the card_logos folder of this repository)
 - 3 Letters set code
 
 You can access the xml file here:
 
-If you need to consume the xml as an API you can use this url: https://inuyasha82.github.io/MagicSetsXML/magicsymbols.xml 
-(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice and deploy it on your server (the project is based on the same xml).
-
-This README is not completed yet.
 
 Set Name 
 --------
@@ -158,6 +158,12 @@ is used.
 
 ```xml
 <online />
+```
+
+* Finally for sets that are designed specifically for 2hg format (the first set published in that way is battlebond), the following tag is used:
+
+```xml
+<twohg />
 ```
 
 Contributing
