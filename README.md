@@ -9,21 +9,21 @@ Its main purpose is to be focused only on sets, and nothing else, then you can't
 This file is manually updated, so there could be a delay on when a set is released and when is reported here. 
 Along with the set information the card_logos folder contains all the symbols.
 
+If you need to consume the xml as an API you can use this url: https://inuyasha82.github.io/MagicSetsXML/magicsymbols.xml 
+(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice and deploy it on your server (the project is based on the same xml).
+
+
 Edition Item
 ============
 
 Even if depending on the set type some of the details are different (preconstructed, normal set, commander, etc) all edition have a common set of information listed below:  contains the following information:
 - Set exit date (month-year)
 - Set name (the name is reported in English, Italian and Spanish)
-- Image filename (available in the card 
+- Image filename (available in the card_logos folder of this repository)
 - 3 Letters set code
 
 You can access the xml file here:
 
-If you need to consume the xml as an API you can use this url: https://inuyasha82.github.io/MagicSetsXML/magicsymbols.xml 
-(this is not a real API, so there are no builtin filtering features), if you want something more similar to an API, you can check my other project: https://github.com/inuyasha82/mtgrestservice and deploy it on your server (the project is based on the same xml).
-
-This README is not completed yet.
 
 Set Name 
 --------
@@ -90,6 +90,51 @@ The xml entry for this type
 	</cards>
 </edition>
 ```
+Preconstructed Sets
+===================
+A preconstructed set has a little bit different structure, keeping all the common fields (names, code, image, launch, etc.) the card composition field is replaced by the <preconstructed> tag. Here an example of a preconstructed set: 
+	
+```xml
+<edition>
+	<launch>2011-04</launch>
+	<code> DDG </code>
+	<image>DDG_symbol.png</image>
+	<names>
+		<name>Duel Decks: Knights vs. Dragons</name>
+		<name lang="it">Duel Decks: Knights vs. Dragons</name>
+	        <name lang="es">Duel Decks: Knights vs. Dragons</name>
+	</names>
+	<preconstructed decks="2" type="duel">
+		<size>60</size>
+	</preconstructed>
+</edition>
+```
+
+The preconstructed tag is composed of two attributes and one child:
+
+* **decks** attribute is the number of decks that compose this set.
+* **type** it identify the type of preconstructed set, it can be one of: duel, commander, planechase, multiplayer. It can be left empty.
+* The child tag is used to identify the size of each deck in the set.
+
+A special case is the planechase set, that has also special cards, so in that case there is also the cards tag, that has one child <plane> to indicate how many planes card are in this set. Below is an example of a planechase deck: 
+	
+```xml
+<edition>
+	<launch>2009-09</launch>
+	<code> HOP </code>
+	<image>Planechase_expansion_symbol.png</image>
+	<names>
+		<name>Planechase (2009)</name>
+	</names>
+	<preconstructed decks="4" type="planechase">
+		<size>60</size>
+	</preconstructed>
+	<cards>
+		<plane>40</plane>
+	</cards>
+</edition>
+```
+
 Special tags
 =================
 In some cases special tags are used to identify some properties of some particular set. To help to identify what is the type of set.
@@ -113,6 +158,12 @@ is used.
 
 ```xml
 <online />
+```
+
+* Finally for sets that are designed specifically for 2hg format (the first set published in that way is battlebond), the following tag is used:
+
+```xml
+<twohg />
 ```
 
 Contributing
