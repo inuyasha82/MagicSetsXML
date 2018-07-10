@@ -2554,9 +2554,17 @@
 	<edition>
 		<launch>2018-07</launch>
 		<code>M19</code>
+		<image>M19_symbol.png</image>
 		<names>
 			<name>Core Set 2019</name>
 			<name lang="it">Set Base 2019</name>
 		</names>
+		<cards>
+			<common>111</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>16</mythic>
+			<lands>20</lands>
+		</cards>
 	</edition>
 </root>
