@@ -2567,4 +2567,15 @@
 			<lands>20</lands>
 		</cards>
 	</edition>
+	<edition>
+		<launch>2018-08</launch>
+		<image>C18_symbol.png</image>
+		<code>C18</code>
+		<names>
+			<name>Commander 2018</name>
+		</names>
+		<preconstructed decks="4" type="commander">
+			<size>100</size>
+		</preconstructed>
+	</edition>
 </root>
