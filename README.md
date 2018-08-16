@@ -27,7 +27,7 @@ You can access the xml file here:
 
 Set Name 
 --------
-The set name tag is wrapped inside the <names> tag, since it is reported in different languages: 
+The set name tag is wrapped inside the `<names>` tag, since it is reported in different languages: 
 ```xml
 <names>
 	<name>English Name</name>
@@ -39,7 +39,7 @@ Currently only English, Spanish and Italian names are reported. No lang attribut
 	
 Card Composition
 ----------------
-The card compisition is wrapped around the <cards> tag. Depending on the specific sets you can find one or more of the following:
+The card compisition is wrapped around the `<cards>` tag. Depending on the specific sets you can find one or more of the following:
 	
 * lands
 * common
@@ -92,7 +92,7 @@ The xml entry for this type
 ```
 Preconstructed Sets
 ===================
-A preconstructed set has a little bit different structure, keeping all the common fields (names, code, image, launch, etc.) the card composition field is replaced by the <preconstructed> tag. Here an example of a preconstructed set: 
+A preconstructed set has a little bit different structure, keeping all the common fields (names, code, image, launch, etc.) the card composition field is replaced by the `<preconstructed>` tag. Here an example of a preconstructed set: 
 	
 ```xml
 <edition>
