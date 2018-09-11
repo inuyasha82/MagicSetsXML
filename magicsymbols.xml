@@ -2558,6 +2558,7 @@
 		<names>
 			<name>Core Set 2019</name>
 			<name lang="it">Set Base 2019</name>
+			<name lang="es">Colección básica 2019</names>
 		</names>
 		<cards>
 			<common>111</common>
@@ -2577,5 +2578,12 @@
 		<preconstructed decks="4" type="commander">
 			<size>100</size>
 		</preconstructed>
+	</edition>
+	<edition>
+		<launch>2018-10</launch>
+		<code>GRN</code>
+		<names>
+			<name>Guilds of Ravnica</name>
+		</names>
 	</edition>
 </root>
