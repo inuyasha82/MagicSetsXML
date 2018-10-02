@@ -2582,7 +2582,7 @@
 	<edition>
 		<launch>2018-10</launch>
 		<code>GRN</code>
-		<image>GRN_symbol.png</images>
+		<image>GRN_symbol.png</image>
 		<names>
 			<name>Guilds of Ravnica</name>
 			<name lang="it">Gilde di Ravnica</name>
