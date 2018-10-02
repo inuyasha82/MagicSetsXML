@@ -2582,8 +2582,17 @@
 	<edition>
 		<launch>2018-10</launch>
 		<code>GRN</code>
+		<image>GRN_symbol.png</images>
 		<names>
 			<name>Guilds of Ravnica</name>
+			<name lang="it">Gilde di Ravnica</name>
+			<name lang="es">Gremios de Ravnica</name>
 		</names>
+		<cards>
+			<common>111</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>15</mythic>
+		</cards>
 	</edition>
 </root>
