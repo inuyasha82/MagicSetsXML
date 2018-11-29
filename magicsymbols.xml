@@ -2597,7 +2597,7 @@
 	</edition>
 	<edition>
 		<launch>2018-12</launch>
-		<symbol>UMA_Symbol.png</symbol>
+		<image>UMA_Symbol.png</image>
 		<code>UMA</code>
 		<names>
 			<name>Ultimate Masters</name>
