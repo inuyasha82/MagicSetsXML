@@ -2595,4 +2595,18 @@
 			<mythic>15</mythic>
 		</cards>
 	</edition>
+	<edition>
+		<launch>2018-12</launch>
+		<symbol>UMA_Symbol.png</symbol>
+		<names>
+			<name>Ultimate Masters</name>
+		</names>
+	</edition>
+	<edition>
+		<launch>2019-01</launch>
+		<code>RNA</code>
+		<names>
+			<name>Ravnica Allegiance</name>
+		</names>
+	</edition>
 </root>
