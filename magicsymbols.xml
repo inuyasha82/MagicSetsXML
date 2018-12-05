@@ -2596,6 +2596,17 @@
 		</cards>
 	</edition>
 	<edition>
+		<launch>2018-11</launch>
+		<image>GNT_Symbol.png</image>
+		<code>GNT</code>
+		<names>
+			<name>Game Night</name>
+		</names>
+		<preconstructed decks="5" type="multiplayer">
+			<size>60</size>
+		</preconstructed>
+	</edition>
+	<edition>
 		<launch>2018-12</launch>
 		<image>UMA_Symbol.png</image>
 		<code>UMA</code>
