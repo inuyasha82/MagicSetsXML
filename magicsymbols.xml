@@ -2623,5 +2623,19 @@
 			<name lang="it">Fedelta di Ravnica</name>
 			<name lang="es">La lealtad de Ravnica</name>
 		</names>
+		<cards>
+			<common>111</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>15</mythic>
+		</cards>
 	</edition>
+	<edition>
+		<launch>2019-04</launch>
+		<code>WAR</code>
+		<names>
+			<name>War of the spark</name>
+		</names>
+	</edition>
+
 </root>
