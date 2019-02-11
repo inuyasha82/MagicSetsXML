@@ -2617,8 +2617,11 @@
 	<edition>
 		<launch>2019-01</launch>
 		<code>RNA</code>
+		<image>RNA_symbol.png</image>
 		<names>
 			<name>Ravnica Allegiance</name>
+			<name lang="it">Fedelta di Ravnica</name>
+			<name lang="es">La lealtad de Ravnica</name>
 		</names>
 	</edition>
 </root>
