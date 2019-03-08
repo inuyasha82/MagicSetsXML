@@ -3,4 +3,4 @@ before-install:
 language: php
 
 script:
-	xmllint --noout --dtdvalid magicsymbols.dtd magicsymbols.xml
+	xmllint --noout --dtdvalid schema.dtd magicsymbols.xml
