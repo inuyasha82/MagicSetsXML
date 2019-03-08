@@ -1,5 +1,7 @@
 # MagicSetsXML
+
 [![Build Status](https://travis-ci.com/inuyasha82/MagicSetsXML.svg?branch=master)](https://travis-ci.com/inuyasha82/MagicSetsXML)
+
 Introduction
 ============
 This XML file contains all sets (or nearly) from alpha to the latest sets released (For set i mean everything that has been released with a 3 letter code and a symbol). 
