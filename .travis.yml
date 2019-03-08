@@ -1,6 +1,7 @@
-before-install: 
- - sudo apt-get install -y libxml2-dev
-language: php
+addons:
+  apt:
+    packages:
+      - libxml2-utils
 
 script:
-	xmllint --noout --dtdvalid schema.dtd magicsymbols.xml
+ - xmllint --noout --dtdvalid schema.dtd magicsymbols.xml
