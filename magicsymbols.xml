@@ -2613,6 +2613,12 @@
 		<names>
 			<name>Ultimate Masters</name>
 		</names>
+		<cards>
+			<common>101</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>20</mythic>
+		</cards>
 	</edition>
 	<edition>
 		<launch>2019-01</launch>
