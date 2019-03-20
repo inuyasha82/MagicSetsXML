@@ -3,5 +3,11 @@ addons:
     packages:
       - libxml2-utils
 
+
+branches:
+  only:
+  - gh-pages
+  - /.*/
+
 script:
  - xmllint --noout --dtdvalid schema.dtd magicsymbols.xml
