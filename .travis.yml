@@ -1,0 +1,7 @@
+addons:
+  apt:
+    packages:
+      - libxml2-utils
+
+script:
+ - xmllint --noout --dtdvalid schema.dtd magicsymbols.xml

@@ -1,0 +1,106 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (edition)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT edition (launch,(code|image)+,names,deckbuilder?,
+                   preconstructed?,(cards|vault)*,
+                   (fun|online|premium|twohg)?)>
+<!ATTLIST edition
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT launch (#PCDATA)>
+<!ATTLIST launch
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT code (#PCDATA)>
+<!ATTLIST code
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT names (name)+>
+<!ATTLIST names
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT deckbuilder (size)>
+<!ATTLIST deckbuilder
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT preconstructed (size)>
+<!ATTLIST preconstructed
+  xmlns CDATA #FIXED ''
+  decks CDATA #REQUIRED
+  type NMTOKEN #IMPLIED>
+
+<!ELEMENT cards (plane?,(common,uncommon,rare)?,mythic?,lands?,other?,
+                 oversize?)>
+<!ATTLIST cards
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT vault EMPTY>
+<!ATTLIST vault
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fun EMPTY>
+<!ATTLIST fun
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT online EMPTY>
+<!ATTLIST online
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT premium (size)>
+<!ATTLIST premium
+  xmlns CDATA #FIXED ''
+  attributes NMTOKEN #REQUIRED
+  decks CDATA #REQUIRED>
+
+<!ELEMENT twohg EMPTY>
+<!ATTLIST twohg
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''
+  lang NMTOKEN #IMPLIED>
+
+<!ELEMENT plane (#PCDATA)>
+<!ATTLIST plane
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT common (#PCDATA)>
+<!ATTLIST common
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT uncommon (#PCDATA)>
+<!ATTLIST uncommon
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rare (#PCDATA)>
+<!ATTLIST rare
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mythic (#PCDATA)>
+<!ATTLIST mythic
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lands (#PCDATA)>
+<!ATTLIST lands
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT other (#PCDATA)>
+<!ATTLIST other
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT oversize (#PCDATA)>
+<!ATTLIST oversize
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT size (#PCDATA)>
+<!ATTLIST size
+  xmlns CDATA #FIXED ''>
+
