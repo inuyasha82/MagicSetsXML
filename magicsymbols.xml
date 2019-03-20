@@ -2641,7 +2641,8 @@
 		<launch>2019-07</launch>
 		<code>M20</code>
 		<names>
-			<name>Core set 2020k</name>
+			<name>Core set 2020</name>
+			<name lang="it">Set base 2020</name>
 		</names>
 	</edition>
 	<edition>
