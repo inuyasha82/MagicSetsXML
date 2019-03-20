@@ -2637,5 +2637,18 @@
 			<name>War of the spark</name>
 		</names>
 	</edition>
-
+	<edition>
+		<launch>2019-07</launch>
+		<code>M20</code>
+		<names>
+			<name>Core set 2020k</name>
+		</names>
+	</edition>
+	<edition>
+		<launch>2019-08</launch>
+		<code>C19</code>
+		<names>
+			<name>Commander 2020</name>
+		</names>
+	</edition>
 </root>
