@@ -2639,9 +2639,17 @@
 	<edition>
 		<launch>2019-04</launch>
 		<code>WAR</code>
+		<image>WAR_symbol.png</image>
 		<names>
 			<name>War of the spark</name>
 		</names>
+		<cards>
+			<common>111</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>15</mythic>
+			<lands>15</lands>
+		</cards>
 	</edition>
 	<edition>
 		<launch>2019-07</launch>
