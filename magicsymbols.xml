@@ -2652,6 +2652,21 @@
 		</cards>
 	</edition>
 	<edition>
+		<launch>2019-06</launch>
+		<code>MH1</code>
+		<image>MH1_symbol.png</image>
+		<names>
+			<name>Mordern Horizons</name>
+		</names>
+		<cards>
+			<common>101</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>15</mythic>
+			<lands>5</lands>
+		</cards>
+	</edition>
+	<edition>
 		<launch>2019-07</launch>
 		<code>M20</code>
 		<names>
