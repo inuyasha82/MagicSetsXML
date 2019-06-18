@@ -1,6 +1,6 @@
 # MagicSetsXML
 
-[![Build Status](https://travis-ci.com/inuyasha82/MagicSetsXML.svg?branch=master)](https://travis-ci.com/inuyasha82/MagicSetsXML)
+[![Build Status](https://travis-ci.com/inuyasha82/MagicSetsXML.svg?branch=master)](https://travis-ci.com/inuyasha82/MagicSetsXML) [![Discord Chat](https://img.shields.io/discord/578193015433330698.svg?style=flat)](https://discordapp.com/channels/578193015433330698/578193713340219392)  
 
 Introduction
 ============
