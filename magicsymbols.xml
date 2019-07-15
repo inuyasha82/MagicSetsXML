@@ -2669,10 +2669,19 @@
 	<edition>
 		<launch>2019-07</launch>
 		<code>M20</code>
+		<image>M20_symbol.png</image>
 		<names>
 			<name>Core set 2020</name>
 			<name lang="it">Set base 2020</name>
-		</names>
+			</names>
+		<cards>
+			<common>152</common>
+			<uncommon>86</uncommon>
+			<rare>65</rare>
+			<mythic>20</mythic>
+			<lands>20</lands>
+		</cards>
+
 	</edition>
 	<edition>
 		<launch>2019-08</launch>
