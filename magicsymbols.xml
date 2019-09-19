@@ -2673,7 +2673,7 @@
 		<names>
 			<name>Core set 2020</name>
 			<name lang="it">Set base 2020</name>
-			</names>
+		</names>
 		<cards>
 			<common>152</common>
 			<uncommon>86</uncommon>
@@ -2685,8 +2685,21 @@
 	<edition>
 		<launch>2019-08</launch>
 		<code>C19</code>
+		<image>C19_symbol.png</image>
 		<names>
-			<name>Commander 2020</name>
+			<name>Commander 2019</name>
+		</names>
+		<preconstructed decks="4" type="commander">
+			<size>100</size>
+		</preconstructed>
+    </edition>
+    <edition>
+		<launch>2019-10</launch>
+		<code>ELD</code>
+		<names>
+			<name>Throne of Eldraine</name>
+			<name lang="it">Il trono di Eldraine</name>
+			<name lang="es">El trono de Eldraine</name>
 		</names>
 	</edition>
 </root>
