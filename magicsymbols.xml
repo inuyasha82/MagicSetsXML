@@ -2650,7 +2650,31 @@
 			<mythic>15</mythic>
 			<lands>15</lands>
 		</cards>
+    </edition>
+	<edition>
+		<launch>2019-06</launch>
+		<code>SS1</code>
+		<image>SS1_symbol.png</image>
+		<names>
+		    <name>Signature Spellbook: Jace</name>
+		</names>
+		<cards>
+			<other>9</other>
+		</cards>
+		<spellbook />
 	</edition>
+	<edition>
+		<launch>2019-06</launch>
+		<code>SS2</code>
+		<image>SS1_symbol.png</image>
+		<names>
+			<name>Signature Spellbook: Gideon</name>
+		</names>
+		<cards>
+			<other>9</other>
+		</cards>
+		<spellbook />
+    </edition>
 	<edition>
 		<launch>2019-06</launch>
 		<code>MH1</code>
@@ -2700,6 +2724,20 @@
 			<name>Throne of Eldraine</name>
 			<name lang="it">Il trono di Eldraine</name>
 			<name lang="es">El trono de Eldraine</name>
+		</names>
+		<cards>
+			<common>101</common>
+			<uncommon>80</uncommon>
+			<rare>53</rare>
+			<mythic>15</mythic>
+			<lands>20</lands>
+		</cards>
+	</edition>
+	<edition>
+		<launch>2020-01</launch>
+		<code>THB</code>
+		<names>
+			<name>Theros: Beyond Death</name>
 		</names>
 	</edition>
 </root>
